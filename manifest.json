@@ -11,7 +11,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://en.wikipedia.org/*"],
+      "matches": ["https://artofproblemsolving.com/*"],
       "js": ["jquery-2.1.4.min.js", "undead.js"],
       "run_at": "document_end"
     }
