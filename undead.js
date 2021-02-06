@@ -2,5 +2,6 @@ window.onload = function() {
 	setTimeout(function(){
 		$('.aops-rogb-container').hide()
 		$(".alc--give-up").text("SOLUTION")
-	},1000); 
+		$(".alc--give-up").on("click",function(){setTimeout(function(){$(".aops-modal-body").text("Confirm show solution.")},150)})
+	},500); 
 }	
